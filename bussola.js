@@ -58,7 +58,7 @@ document.addEventListener("deviceready",onDeviceReady,false);
 function onDeviceReady() {
 
 	appBussola = new objtBussola();
-	appBussola.drawCanvas();
+	//appBussola.drawCanvas();
 	appBussola.bussola();
     }
 
